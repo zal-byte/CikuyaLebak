@@ -18,6 +18,9 @@ class CikuyaController extends Controller
         return view('home');
     }
 
+    public function credit(){
+        return view('credit');
+    }
     /**
      * Show the form for creating a new resource.
      *
